@@ -180,7 +180,7 @@ The API can be configured using environment variables:
 | PORT | Server port | 3000 |
 | NODE_ENV | Environment (development/production) | development |
 | ANTHROPIC_API_KEY | Claude API key | - |
-| CLAUDE_MODEL | Claude model to use | claude-3-5-sonnet-20240620 |
+| CLAUDE_MODEL | Claude model to use | claude-3-haiku-20240307 |
 | CACHE_TTL | Cache time-to-live in seconds | 86400 (24 hours) |
 | CONCURRENCY_LIMIT | Maximum concurrent Claude API requests | 4 |
 | API_KEY | API authentication key | - |

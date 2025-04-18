@@ -36,7 +36,7 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   logger.info(`Server running on port ${PORT}`);
   logger.info(`Environment: ${process.env.NODE_ENV}`);
-  logger.info(`Claude Model: ${process.env.CLAUDE_MODEL || 'claude-3-5-sonnet-20240620'}`);
+  logger.info(`Claude Model: ${process.env.CLAUDE_MODEL || 'claude-3-haiku-20240307'}`);
   
   // Preload cache with sample questions
   try {

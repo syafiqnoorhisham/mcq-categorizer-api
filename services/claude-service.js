@@ -8,7 +8,7 @@ const anthropic = new Anthropic({
 });
 
 // Claude model to use
-const CLAUDE_MODEL = process.env.CLAUDE_MODEL || 'claude-3-5-sonnet-20240620';
+const CLAUDE_MODEL = process.env.CLAUDE_MODEL || 'claude-3-sonnet-20240229';
 
 /**
  * Categorize a clinical question using Claude AI
