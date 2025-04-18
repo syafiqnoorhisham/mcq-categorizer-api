@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: mcq-categorizer-api
+    runtime: node
+    branch: main
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 18.x
